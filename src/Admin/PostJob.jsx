@@ -55,7 +55,7 @@ function PostJob() {
       };
 
       axios
-        .post('https://backend-internship.onrender.com/api/job', bodyJson)
+        .post('https://backend-internship.onrender.com/api/jobs', bodyJson)
         .then((res) => {
           console.log(res.data);
           alert(t('postJob.jobPostedSuccessfully'));
