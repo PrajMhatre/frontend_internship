@@ -1,0 +1,242 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Image size */
+img {
+  width: 120px;
+}
+
+/* Navbar styling */
+nav {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 5px -2px black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Navigation list styling */
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.elem {
+  display: flex;
+  margin-left: 34px;
+  justify-content: space-between;
+}
+
+ul p {
+  margin: 0 15px;
+  color: black;
+}
+
+/* Search bar styling */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search i {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.search input {
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Authentication button styling */
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn1, .btn2, .admin button, #bt {
+  outline: none;
+  border: none;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.btn1 {
+  background-color: transparent;
+  color: #078edd;
+  border: 2px solid #078edd;
+  width: 80px;
+}
+
+.btn2, .admin button, #bt {
+  background-color: #078edd;
+  color: white;
+  width: 100px;
+}
+
+#bt {
+  margin-left: 10px;
+}
+
+/* Hire section styling */
+.hire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+/* Admin section styling */
+.admin {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+
+  .search input {
+    width: 150px;
+  }
+}
+
+/* Various positioning adjustments */
+#cross {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 34px;
+}
+
+.login {
+  
+  position: absolute;
+  left: 32.5%;
+  top: 20%;
+ 
+  z-index: 1;
+  padding: 20px;
+}
+
+.location, .catogry, .Explore, .catogry2, #more {
+  position: absolute;
+  top: 6rem;
+  left: 14%;
+}
+
+#ico3 {
+  position: absolute;
+  top: 38%;
+  left: 23rem;
+}
+
+.Profile {
+  position: absolute;
+  top: 0;
+  left: 61%;
+}
+
+.location2 {
+  position: relative;
+  top: -8rem;
+  left: 50%;
+}
+
+.jobs {
+  position: relative;
+  top: 0;
+  left: 24rem;
+}
+
+#loginClose {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.logout {
+  position: relative;
+  width: 100px;
+  left: 475%;
+  top: -8px;
+}
+
+#picpro {
+  position: relative;
+  left: 566%;
+  top: 8px;
+}
+
+#ico2, #ico {
+  position: relative;
+  top: 31%;
+  left: -7%;
+}
+
+.proName {
+  position: relative;
+  font-weight: bold;
+  left: 667%;
+  top: -28px;
+}
+
+/* Profile dropdown styling */
+.profile-dropdown, .profile-dropdown-2, .profile-dropdown-1 {
+  position: absolute;
+  background: white;
+  z-index: 1;
+  box-shadow: 0 0 5px -2px black;
+}
+
+.profile-dropdown {
+  top: 10%;
+  left: 126%;
+  height: 250px;
+}
+
+.profile-dropdown-2, .profile-dropdown-1 {
+  top: 11%;
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-dropdown-2 {
+  left: 10%;
+}
+
+.profile-dropdown-1 {
+  left: 24%;
+}
+
+.profile-dropdown-2 p, .profile-dropdown-1 p {
+  margin: 4px 3px 0 6px;
+}
+
+.line {
+  width: 0.5px;
+  height: 100%;
+  background-color: #ccc;
+}

@@ -1,0 +1,23 @@
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  background-color: white; /* Default background color */
+}
+
+.App.blue {
+  background-color: blue;
+}
+
+.App.green {
+  background-color: green;
+}
+
+.App.yellow {
+  background-color: yellow;
+}
+
+/* Additional styles as needed */

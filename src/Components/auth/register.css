@@ -1,0 +1,15 @@
+/* register.css */
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem; /* Added margin-bottom for spacing */
+  }
+  
+  p {
+    text-align: center;
+    color: #777; /* Example color adjustment */
+    margin-bottom: 1rem; /* Added margin-bottom for spacing */
+  }
+    
