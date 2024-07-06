@@ -229,10 +229,10 @@ function Navbar() {
                                         <button onClick={loginFunction} className='flex items-center h-9 justify-center mt-4 text-white bg-slate-900 rounded-md tracking-wide font-semibold cursor-pointer'>
                                             <i className="bi bi-google mr-2"></i> {t('navbar.signInWithGoogle')}
                                         </button>
-                                        <div className="separator">{t('navbar.or')}</div>
+                                        <div className="separator">Or</div>
                                         <form onSubmit={loginWithEmailPassword}>
                                             <div>
-                                                <label className="block mb-2 text-sm font-medium text-gray-600">{t('navbar.email')}</label>
+                                                <label className="block mb-2 text-sm font-medium text-gray-600">{t('navbar.emailAddress')}</label>
                                                 <input
                                                     value={email}
                                                     onChange={(e) => setEmail(e.target.value)}
@@ -250,7 +250,7 @@ function Navbar() {
                                                 />
                                             </div>
                                             <button type="submit" className="w-full px-4 py-2 mt-6 text-white bg-slate-900 rounded-md">
-                                                {t('navbar.signIn')}
+                                                {t('navbar.signin')}
                                             </button>
                                         </form>
                                     </div>
