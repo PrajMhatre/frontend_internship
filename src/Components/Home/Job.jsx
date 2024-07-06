@@ -41,6 +41,9 @@ function Job() {
     return (
         <div>
             <div className="info-intern mt-12">
+                <h1 className='text-center font-bold'>
+                    {t('job.latestJobs')}
+                </h1>
                 <div className="categories flex flex-wrap mt-14">
                     <p>{t('job.popularCategories')}</p>
                     <span className={`category mr-4 ml-6 ${selectedCategory === 'Big Brands' ? 'bg-blue-500 text-white' : ""}`} onClick={() => setSelectedCategory('Big Brands')}>{t('job.bigBrands')}</span>

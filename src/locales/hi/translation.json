@@ -28,7 +28,8 @@
     "employeeAndTP": "कर्मचारी और प्रशिक्षण योजना",
     "signInWithGoogle": "Google से साइन इन करें",
     "emailAddress": "ईमेल पता",
-    "password": "पासवर्ड"
+    "password": "पासवर्ड",
+    "signin":"साइन इन करें"
   },
   "sidebar": {
     "internships": "इंटर्नशिप्स",
@@ -346,7 +347,15 @@
     "specifyAvailability": "(कृपया अपनी उपलब्धता निर्दिष्ट करें)",
     "customResume": "कस्टम रिज़्यूमे (वैकल्पिक)",
     "employerDownload": "नियोक्ता इस रिज़्यूमे को डाउनलोड और देख सकता है",
-    "submitApplication": "आवेदन जमा करें"
+    "submitApplication": "आवेदन जमा करें",
+    "about": "के बारे में",
+    "stipend": "वजीफा",
+    "instagramPage": "इंस्टाग्राम पेज",
+    "learnBusinessCommunication": "व्यावसायिक संचार सीखें",
+    "apply": "आवेदन करें",
+    "close": "बंद करें",
+    "whyShouldWeHire": "हमें आपको क्यों किराए पर लेना चाहिए",
+    "confirmYourAvailability": "अपनी उपलब्धता की पुष्टि करें"
   },
   "register": {
     "signup": "साइन अप करें और मुफ्त में आवेदन करें",

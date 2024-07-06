@@ -28,7 +28,8 @@
     "employeeAndTP": "Empleado y T&P",
     "signInWithGoogle": "Iniciar sesión con Google",
     "emailAddress": "Correo electrónico",
-    "password": "Contraseña"
+    "password": "Contraseña",
+    "signin":"Iniciar sesión"
   },
     "sidebar": {
     "internships": "Pasantías",
@@ -346,7 +347,15 @@
     "specifyAvailability": "(Por favor, especifica tu disponibilidad)",
     "customResume": "Currículum personalizado (opcional)",
     "employerDownload": "El empleador puede descargar y ver este currículum",
-    "submitApplication": "Enviar solicitud"
+    "submitApplication": "Enviar solicitud",
+    "about": "acerca de",
+    "stipend": "estipendio",
+    "instagramPage": "página de Instagram",
+    "learnBusinessCommunication": "aprender comunicación empresarial",
+    "apply": "aplicar",
+    "close": "cerrar",
+    "whyShouldWeHire": "por qué deberíamos contratarte",
+    "confirmYourAvailability": "confirma tu disponibilidad"
   },
   "register": {
     "signup": "¡Regístrese y solicite gratis!",

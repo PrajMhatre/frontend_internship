@@ -94,17 +94,17 @@ function Intern() {
               <input type="range" name="" id="" />
               <p className='mt-2 ml-3 mr-3'>0 2K &nbsp; 4k &nbsp; 6K &nbsp; 8k &nbsp; 10K</p>
             </div>
-            <p className='mt-5 text-blue-400'>{t('intern.viewMoreFilters')} <i className="bi bi-chevron-down"></i></p>
+            {/* <p className='mt-5 text-blue-400'>{t('intern.viewMoreFilters')} <i className="bi bi-chevron-down"></i></p> */}
             <span className='justify-end flex text-blue-400 mr-3'>{t('intern.clearAll')}</span>
           </div>
-          <div className="search-2">
+          {/* <div className="search-2">
             <div className="search-container">
               <input type="text" placeholder={t('intern.exampleDesignMediaMBA')} />
               <div className="search-icon">
                 <i className="bi bi-search"></i>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="all-internships">

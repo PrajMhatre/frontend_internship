@@ -28,7 +28,8 @@
     "employeeAndTP": "Employé et T&P",
     "signInWithGoogle": "Se connecter avec Google",
     "emailAddress": "Adresse e-mail",
-    "password": "Mot de passe"
+    "password": "Mot de passe",
+    "signin":"Se connecter"
   },
   "sidebar": {
     "internships": "Stages",
@@ -346,7 +347,15 @@
     "specifyAvailability": "(Veuillez préciser votre disponibilité)",
     "customResume": "CV personnalisé (optionnel)",
     "employerDownload": "L'employeur peut télécharger et consulter ce CV",
-    "submitApplication": "Soumettre la candidature"
+    "submitApplication": "Soumettre la candidature",
+    "about": "à propos de",
+    "stipend": "allocation",
+    "instagramPage": "page Instagram",
+    "learnBusinessCommunication": "apprendre la communication d'entreprise",
+    "apply": "postuler",
+    "close": "fermer",
+    "whyShouldWeHire": "pourquoi devrions-nous vous embaucher",
+    "confirmYourAvailability": "confirmez votre disponibilité"
   },
   "register": {
     "signup": "Inscrivez-vous et postulez gratuitement",

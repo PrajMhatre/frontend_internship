@@ -29,7 +29,8 @@
     "employeeAndTP": "Employee and T&P",
     "signInWithGoogle": "Sign in with Google",
     "emailAddress": "Email Address",
-    "password": "Password"
+    "password": "Password",
+    "signin":"Sign In"
   },
   "sidebar": {
     "internships": "Internships",
@@ -348,7 +349,15 @@
     "specifyAvailability": "(Please specify your availability)",
     "customResume": "Custom resume (Optional)",
     "employerDownload": "Employer can download and view this resume",
-    "submitApplication": "Submit application"
+    "submitApplication": "Submit application",
+    "about": "about",
+    "stipend": "stipend",
+    "instagramPage": "instagramPage",
+    "learnBusinessCommunication": "learnBusinessCommunication",
+    "apply": "apply",
+    "close": "close",
+    "whyShouldWeHire": "why should we hire you",
+    "confirmYourAvailability": "confirm your availability"
   },
   "register": {
     "signup": "Sing-up and Apply For Free",

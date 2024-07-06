@@ -28,7 +28,8 @@
     "employeeAndTP": "Funcionário e T&P",
     "signInWithGoogle": "Entrar com Google",
     "emailAddress": "Endereço de Email",
-    "password": "Senha"
+    "password": "Senha",
+    "signin":"Entrar"
   },
   "sidebar": {
     "internships": "Estágios",
@@ -346,7 +347,15 @@
     "specifyAvailability": "(Por favor, especifique sua disponibilidade)",
     "customResume": "Currículo personalizado (opcional)",
     "employerDownload": "O empregador pode baixar e visualizar este currículo",
-    "submitApplication": "Enviar candidatura"
+    "submitApplication": "Enviar candidatura",
+    "about": "sobre",
+    "stipend": "bolsa",
+    "instagramPage": "página do Instagram",
+    "learnBusinessCommunication": "aprender comunicação empresarial",
+    "apply": "inscrever-se",
+    "close": "fechar",
+    "whyShouldWeHire": "por que deveríamos contratar você",
+    "confirmYourAvailability": "confirme sua disponibilidade"
   },
   "register": {
     "signup": "Cadastre-se e aplique gratuitamente",

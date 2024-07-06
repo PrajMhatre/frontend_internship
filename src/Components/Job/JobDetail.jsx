@@ -134,7 +134,7 @@ function JobDetail() {
         <p>{data.perks}</p>
         <p className="mt-3 text-xl font-bold text-start">{t('JobDetail.additionalInfo')}</p>
         <p>{data.AdditionalInfo}</p>
-        <p className="mt-3 text-xl font-bold text-start">{t('JobDetail.numberOfOpening')}</p>
+        <p className="mt-3 text-xl font-bold text-start">{t('JobDetail.numberOfOpenings')}</p>
         <p className="text-start">{data.numberOfopning}</p>
         <div className="flex justify-center mt-6 bg-blue-500 w-40 text-center text-white font-bold ">
           <button className="flex justify-center align-middle" onClick={show}>
@@ -153,8 +153,6 @@ function JobDetail() {
               <p className="mt-3 text-sm font-bold text-start mb-3">{data.aboutCompany}</p>
             </div>
             <div className="moreSteps">
-              <p className="font-semibold text-xl">{t('JobDetail.yourResume')}</p>
-              <small>{t('JobDetail.yourCurrentResume')}</small>
               <p className="mt-5 font-semibold text-xl">{t('JobDetail.coverLetter')}</p>
               <br />
               <p>{t('JobDetail.whyShouldWeHire')}</p>
@@ -193,11 +191,7 @@ function JobDetail() {
                 <span className="text-slate-500">{t('JobDetail.specifyAvailability')}</span>
               </label>
             </div>
-            <p className="mt-5 font-semibold text-xl">
-              {t('JobDetail.customResume')}{' '}
-              <span className="text-slate-500">{t('JobDetail.customResumeOptional')}</span>
-            </p>
-            <small className="text-slate-500">{t('JobDetail.employerCanDownload')}</small>
+          
 
             <div className="submit flex justify-center">
               {user ? (

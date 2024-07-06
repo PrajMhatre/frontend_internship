@@ -67,6 +67,9 @@ function Sidebar() {
           )}
           <Link to="/internship">{t('sidebar.internships')}</Link>
           <Link to="/Jobs">{t('sidebar.jobs')}</Link>
+          {/* {!user && (
+            <Link to="/login">{t('sidebar.login')}</Link>
+          )} */} 
           <Link to="/" className='small'>{t('sidebar.contactUs')}</Link>
           <hr />
           {user ? (
@@ -93,8 +96,6 @@ function Sidebar() {
             </>
           ) : (
             <div className="addmore">
-              <p>{t('sidebar.registerStudent')}</p>
-              <p>{t('sidebar.registerEmployer')}</p>
               <br />
               <br />
             </div>

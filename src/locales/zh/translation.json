@@ -30,7 +30,8 @@
     "employeeAndTP": "员工与培训计划",
     "signInWithGoogle": "使用Google账号登录",
     "emailAddress": "电子邮箱地址",
-    "password": "密码"
+    "password": "密码",
+    "signin":"登录"
   },
   "sidebar": {
     "internships": "实习",
@@ -348,7 +349,15 @@
     "specifyAvailability": "(请说明您的空档时间)",
     "customResume": "定制简历（可选）",
     "employerDownload": "雇主可以下载和查看此简历",
-    "submitApplication": "提交申请"
+    "submitApplication": "提交申请",
+    "about": "关于",
+    "stipend": "津贴",
+    "instagramPage": "Instagram页面",
+    "learnBusinessCommunication": "学习商务沟通",
+    "apply": "申请",
+    "close": "关闭",
+    "whyShouldWeHire": "我们为什么要雇用你",
+    "confirmYourAvailability": "确认你的空闲时间"
   },
   "register": {
     "signup": "注册并免费申请",

@@ -122,8 +122,7 @@ function Interndetail() {
     <p className="mt-3 text-sm font-bold text-start mb-3">{data.aboutCompany}</p>
   </div>
   <div className="moreSteps">
-    <p className="font-semibold text-xl">{t('interndetail.yourResume')}</p>
-    <small>{t('interndetail.yourResumeNote')}</small>
+    
     <p className="mt-5 font-semibold text-xl">{t('interndetail.coverLetter')}</p>
     <br />
     <p>{t('interndetail.whyShouldWeHire')}</p>
@@ -180,9 +179,7 @@ function Interndetail() {
       </span>
     </label>
   </div>
-  <p className="mt-5 font-semibold text-xl">{t('interndetail.customResume')}{' '}
-    <span className="text-slate-500">({t('interndetail.optional')})</span>
-  </p>
+  
   <small className="text-slate-500">{t('interndetail.employerDownload')}</small>
   <div className="submit flex justify-center">
     {user ? (

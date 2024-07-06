@@ -95,15 +95,15 @@ function JobAvl() {
               </div>
               <p>{t('JobAvl.annualSalaryInLakhs')}</p>
               <input type='range' name='' id='' />
-              <p className='mt-2 ml-3 mr-3'>0 2K &nbsp; 4k &nbsp; 6K &nbsp; 8k &nbsp; 10K</p>
+              <p className='mt-2 ml-3 mr-3'>0 2L &nbsp; 4L &nbsp; 6L &nbsp; 8k &nbsp; 10L</p>
             </div>
 
-            <p className='mt-5 text-blue-400'>
+            {/* <p className='mt-5 text-blue-400'>
               {t('JobAvl.viewMoreFilters')} <i className='bi bi-chevron-down'></i>
-            </p>
+            </p> */}
             <span className='justify-end flex text-blue-400 mr-3'>{t('JobAvl.clearAll')}</span>
           </div>
-          <div className='search-2'>
+          {/* <div className='search-2'>
             <div className='search-container'>
               <label htmlFor='ex'>{t('JobAvl.experience')}</label>
               <input type='text' id='ex' placeholder={t('JobAvl.exampleExperience')} />
@@ -111,7 +111,7 @@ function JobAvl() {
                 <i className='bi bi-search'></i>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className='all-internships'>

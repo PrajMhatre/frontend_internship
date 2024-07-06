@@ -9,6 +9,7 @@ import i18n from './i18n';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
+import Login from './Components/auth/login'
 import Register from './Components/auth/Register';
 import Intern from './Components/Internships/Intern';
 import JobAvl from './Components/Job/JobAvl';
@@ -27,6 +28,7 @@ import LanguageSelector from './Components/LanguageSelector';
 import { BackgroundColorProvider, useBackgroundColor } from './BackgroundColorContext';
 import './App.css';
 import OtpVerification from './Components/OtpVerification'; 
+
 
 function AppContent() {
   const user = useSelector(selectUser);
@@ -58,6 +60,7 @@ function AppContent() {
       <LanguageSelector />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/internship" element={<Intern />} />
         <Route path="/Jobs" element={<JobAvl />} />
